@@ -1,0 +1,7 @@
+SHAPEFILE
+{
+  type: String // District, County, etc.
+  shapefile data... ?
+  createdAt: Date,
+  updatedAt: Date,
+}
