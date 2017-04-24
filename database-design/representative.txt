@@ -1,0 +1,24 @@
+CANDIDATE
+{
+  name: String,
+  history: [...],
+  imageUrl: String,
+  websites: {
+    website: String,
+    facebook: String,
+    twitter: String,
+  },
+  district: String,
+  contactInfo: {
+    email: String,
+    phone: Phone,
+  },
+  politicalAffiliation: String,
+  currentPosition: Office,
+  startDate: Date,
+  endDate: Date,
+  currentCandidate: Office,
+  active: Boolean,
+  createdAt: Date,
+  updatedAt: Date,
+}

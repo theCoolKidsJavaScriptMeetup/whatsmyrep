@@ -1,0 +1,8 @@
+Past Office
+{
+  position: String,
+  shapefile: Shapefile
+  active: Boolean,
+  createdAt: Date,
+  updatedAt: Date,
+}
